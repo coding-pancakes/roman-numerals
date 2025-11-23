@@ -1,6 +1,6 @@
-print("Welcome to my Roman Numeral converter!")
+print("Welcome to my Roman numeral converter!")
 
-numeral_input = input("Roman Numerals: ")
+numeral_input = input("Enter the Roman numerals you wish to translate: ")
 
 def roman_to_int(numeral):
     final_answer = 0
