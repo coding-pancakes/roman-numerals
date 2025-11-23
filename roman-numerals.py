@@ -24,3 +24,5 @@ def roman_to_int(numeral):
             print("Error: Invalid Roman Numeral")
             return None
         print("The roman numeral you entered translates to: " + str(final_answer) + "!")
+
+roman_to_int(numeral_input)
