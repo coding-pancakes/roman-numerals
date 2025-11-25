@@ -22,7 +22,7 @@ def roman_to_int(numeral):
     if "IV" in numeral:
         final_answer += 4
         numeral = numeral.replace("IV", "")
-        
+
     for i in numeral:
         if i == "M":
             final_answer += 1000
